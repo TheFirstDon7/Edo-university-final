@@ -7,16 +7,20 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.2/css/fontawesome.min.css">
     <script src="https://kit.fontawesome.com/0d61707f8c.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Joan&family=Open+Sans:wght@300&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:wght@100&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
 </head>
 <body>
     <section class="header">
-     <nav>
-        <a href="#"><img src="images/edo univwesity logo.png" alt="edo university logo"></a>
+     <nav  data-aos="zoom-in-up">
+        <a href="#"><img src="images/edo univwesity logo.png" alt="edo university logo"></a> 
         
         <div class="nav-links">
         
-            <ul class="nav-menu">
+            <ul>
                 <li class="nav-item"><a href="courses.html" class="nav-link">Courses</a></li>
                 <li class="nav-item"><a href="admission.html" class="nav-link">Admissions</a></li>
                 <li class="nav-item"><a href="https://edouniversity.instructure.com/" target="_blank" class="nav-link">LMS</a></li>
@@ -34,9 +38,9 @@
        </nav>
        <script src="index.js"></script>
        
-     <div class="showcase-text">
-     <h1>Edo State University,Uzairue</h1>
-     <p>The vision of Edo State University Uzairue,(formerly Edo University Iyamho),
+     <div class="showcase-text" >
+     <h1  data-aos="zoom-in-up">Edo State University,Uzairue</h1>
+     <p >The vision of Edo State University Uzairue,(formerly Edo University Iyamho),
         <br>
         is to become a centre of excellence in quality teaching, research, innovations
         and community development.</p>
@@ -46,7 +50,7 @@
      
     </section>
 
-    <section class="course">
+    <section class="course" data-aos="fade-right">
         <h1>Programs We Offer</h1>
         <p>Lorem ipsum, dolor sit amet consectetur adipis</p>
     
@@ -67,7 +71,7 @@
     
     </section>
 
-    <section class="campus">
+    <section class="campus" data-aos="fade-left">
         <h1>Our campus</h1>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, sapiente!</p>
         <div class="row">
@@ -93,7 +97,7 @@
 
     </section>
 
-    <section class="facilities">
+    <section class="facilities" data-aos="fade-up-right">
         <h1>Our facilities</h1>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur, nam?</p>
 
@@ -117,7 +121,7 @@
 
     </section>
 
-    <section class="testimonials">
+    <section class="testimonials" data-aos="fade-up-left">
         <h1>What Our Student Says</h1>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur, nam?</p>
 
@@ -166,5 +170,12 @@
     </section>
 
 
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        offset:300,
+        duration:1000
+      });
+    </script>
 </body>
 </html>
