@@ -462,6 +462,19 @@ nav img {
     color: #64DD17;
 }
 
+.anthem {
+    justify-content: center;
+    text-align: center;
+}
+
+.anthem h1 {
+    color: black;
+}
+
+.anthem p {
+    font-style: italic;
+}
+
 .location {
     width: 80%;
     margin: auto;
