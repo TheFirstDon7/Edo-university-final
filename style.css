@@ -168,10 +168,10 @@ nav img {
     .nav-menu {
         position: fixed;
         left: -100%;
-        top: 15%;
+        top: 85%;
         gap: 0;
         flex-direction: column;
-        background-color: #64DD17;
+        background-color: #242423;
         width: 100%;
         text-align: center;
         transition: 0.5s;
